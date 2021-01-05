@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Cheeki Breeki Extension",
+  "short_name": "Cheeki Breeki Extension",
+  "description": "Cheeki Breeki Extension",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Cheeki Breeki Extension"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "notifications",
+    "debugger",
+    "tabs",
+    "background"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "256": "react256.png"
+  }
+}
