@@ -17,20 +17,13 @@ class App extends Component {
           <div>
             <Router>
               <NavBar />
-
-              {/* <Route exact path="/" component={Home} /> */}
-              {/* <Route exact path="/Login" component={LoginForm} /> */}
-              {/* <Route exact path="/Home" component={EngineList} /> */}
-
               <Switch>
                 <Route path="/Login">
-                  <LoginForm/>
+                  <LoginForm />
                 </Route>
-
                 <Route path="/Home">
-                  <EngineList/>
+                  <EngineList />
                 </Route>
-
               </Switch>
             </Router>
           </div>
