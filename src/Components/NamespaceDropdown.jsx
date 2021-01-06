@@ -9,7 +9,7 @@ class NamespaceDropdown extends Component {
         
 
         return (
-            <NavDropdown title="Namespaces" id="collasible-nav-dropdown">       
+            <NavDropdown title="Namespaces" id="collasible-nav-dropdown" fixed="top">       
                     <Dropdown.ItemText>current namespace path</Dropdown.ItemText>
                     <Dropdown.Divider/>
                     <Dropdown.Item>namespace1</Dropdown.Item>

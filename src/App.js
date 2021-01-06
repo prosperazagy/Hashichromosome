@@ -1,7 +1,8 @@
       /*global chrome*/
 import React, { Component } from 'react';
 import './App.css';
-import Navigation from './Components/navbar';
+import NavBar from './Components/navbar';
+import LoginForm from './Components/loginForm';
 
 
 class App extends Component {
@@ -11,8 +12,10 @@ render() {
     <div className="App" style={{ minWidth: '400px', minHeight: '500px', maxHeight: '500px'}}>
 
       <div className="App-intro">
-        <Navigation />
-
+        <NavBar />
+        <div>
+          <LoginForm />
+        </div>
 
       </div>
     </div>
