@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class engineList extends Component {
-    render() {
-        return (
-            <div>
+export default function engineList() {
+
+	return (
+		<div>
+                Home Page
             </div>
-        )
-    }
+	);
 }
-export default engineList;
-
